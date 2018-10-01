@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HotOrNot</string>
+    <string name="facebook_app_id">2150485518304448</string>
+    <string name="fb_login_protocol_scheme">fb2150485518304448</string>
+    <string name="you_are_not_part_of_the_group_ensias_promo_2021">You are not part of the group ENSIAS PROMO 2021</string>
+    <string name="if_you_are_please_contact_us_on_this_mail_mr_x_chaos_gmail_com_thank_you">if you are please Contact us on this mail Mr.X.chaos@gmail.com , Thank You</string>
+</resources>
