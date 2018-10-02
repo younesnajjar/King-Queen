@@ -9,6 +9,11 @@ import com.google.gson.annotations.SerializedName;
 
 public class StudentExistence {
 
+    public StudentExistence(){}
+    public StudentExistence(String studentName){
+        username = studentName;
+    }
+
     @SerializedName("user_id")
     @Expose
     private Integer userId;
@@ -17,7 +22,7 @@ public class StudentExistence {
     private String username;
     @SerializedName("existence_count")
     @Expose
-    private Boolean existenceCount;
+    private Boolean userExistence;
 
     public Integer getUserId() {
         return userId;
@@ -34,11 +39,11 @@ public class StudentExistence {
         this.username = username;
     }
 
-    public Boolean getExistenceCount() {
-        return existenceCount;
+    public Boolean getUserExistence() {
+        return userExistence;
     }
 
-    public void setExistenceCount(Boolean existenceCount) {
-        this.existenceCount = existenceCount;
+    public void setUserExistence(Boolean userExistence) {
+        this.userExistence = userExistence;
     }
 }

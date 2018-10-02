@@ -57,10 +57,16 @@
         android:background="#55000000"
         android:clickable="true"
         android:visibility="gone"/>
-    <com.facebook.login.widget.LoginButton
-        android:id="@+id/login_button"
+    <!--<com.facebook.login.widget.LoginButton-->
+        <!--android:id="@+id/login_button"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--style="@style/FacebookLoginButton"/>-->
+    <ImageButton
+        android:id="@+id/log_out_imagebutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        style="@style/FacebookLoginButton"/>
+        android:src="@drawable/ic_log_out"
+        android:layout_alignParentRight="true"/>
 </RelativeLayout>
