@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FAFAE6"
-    tools:context="com.example.younes.hotornot.ui.Activities.ScoreActivity">
+    tools:context="com.example.younes.hotornot.ui.activities.ScoreActivity">
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">

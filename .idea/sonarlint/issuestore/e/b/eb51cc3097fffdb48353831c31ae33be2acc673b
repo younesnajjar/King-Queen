@@ -1,0 +1,12 @@
+
+Fsquid:S1068&"/Remove this unused "preferences" private field.(Æ†Ï≤
+^$squid:AssignmentInSubExpressionCheck/".Extract the assignment out of this expression.(¶ú€€
+gsquid:CommentedOutCodeLineX"<This block of commented-out lines of code should be removed.(¡ˇÏ≥˙ˇˇˇˇ
+gsquid:CommentedOutCodeLine:"<This block of commented-out lines of code should be removed.(Ì¶»ﬁ˛ˇˇˇˇ
+gsquid:CommentedOutCodeLineG"<This block of commented-out lines of code should be removed.(¬çôÜ˙ˇˇˇˇ
+Ysquid:UselessImportCheck"0Remove this unused import 'okhttp3.RequestBody'.(˝¬¬ˆ˚ˇˇˇˇ
+nsquid:S1450%"WRemove the "mContext" field and declare it as a local variable in the relevant methods.(∫ÒŸí
+gsquid:CommentedOutCodeLine="<This block of commented-out lines of code should be removed.(Âù§†˘ˇˇˇˇ
+Csquid:S1068%",Remove this unused "mContext" private field.(∫ÒŸí
+bsquid:CommentedOutCodeLine5"<This block of commented-out lines of code should be removed.(ûÈöº
+gsquid:CommentedOutCodeLine8"<This block of commented-out lines of code should be removed.(ú±ã‹¸ˇˇˇˇ

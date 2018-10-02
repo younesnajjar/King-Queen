@@ -2,11 +2,11 @@ package com.example.younes.hotornot.ui.views;
 
 import android.content.Context;
 import android.support.annotation.Nullable;
+import android.support.v7.widget.AppCompatImageView;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.RotateAnimation;
-import android.widget.ImageView;
 
 import com.example.younes.hotornot.R;
 
@@ -14,7 +14,7 @@ import com.example.younes.hotornot.R;
  * Created by younes on 9/29/2018.
  */
 
-public class LoadingSpinner extends ImageView {
+public class LoadingSpinner extends AppCompatImageView {
 
     private static final int ROTATE_ANIMATION_DURATION = 800;
     private static final int IMAGE_RESOURCE_ID = R.drawable.loading;

@@ -19,11 +19,11 @@
             android:name="com.facebook.FacebookActivity"
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
             android:label="@string/app_name" />
-        <activity android:name=".ui.Activities.SwiperScreenActivity">
+        <activity android:name=".ui.activities.SwiperScreenActivity">
 
         </activity>
-        <activity android:name=".ui.Activities.ScoreActivity"></activity>
-        <activity android:name=".ui.Activities.StartingActivity">
+        <activity android:name=".ui.activities.ScoreActivity"></activity>
+        <activity android:name=".ui.activities.StartingActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

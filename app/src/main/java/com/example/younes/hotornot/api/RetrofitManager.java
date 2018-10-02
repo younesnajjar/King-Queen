@@ -46,7 +46,7 @@ public class RetrofitManager {
     public static RetrofitManager getInstance(Context context) {
         RetrofitManager instance = mInstance != null ? mInstance : (mInstance = new RetrofitManager());
         if (context != null)
-            mInstance.mContext = context;
+            mContext = context;
         return instance;
     }
 

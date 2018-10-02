@@ -1,8 +1,6 @@
 package com.example.younes.hotornot.utils;
 
 import android.content.Context;
-import android.util.Log;
-
 import com.facebook.AccessToken;
 
 /**
@@ -10,11 +8,11 @@ import com.facebook.AccessToken;
  */
 
 public class FaceBookLoginStatus {
-    private static AccessToken accessToken;
-    private static boolean isLoggedIn;
+    private FaceBookLoginStatus(){}
+
     public static Boolean isFbConnected(Context context){
-        accessToken = AccessToken.getCurrentAccessToken();
-        isLoggedIn = accessToken != null && !accessToken.isExpired();
+        AccessToken accessToken = AccessToken.getCurrentAccessToken();
+        boolean isLoggedIn = accessToken != null && !accessToken.isExpired();
 
         return isLoggedIn && SaveSharedPreference.getLoggedStatus(context);
     }

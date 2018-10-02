@@ -13,6 +13,7 @@ import static com.example.younes.hotornot.utils.PreferencesUtility.STUDENT_ID_IN
  */
 
 public class SaveSharedPreference {
+    private SaveSharedPreference(){}
     static SharedPreferences getPreferences(Context context) {
         return PreferenceManager.getDefaultSharedPreferences(context);
     }

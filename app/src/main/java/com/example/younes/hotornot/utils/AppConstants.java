@@ -5,5 +5,6 @@ package com.example.younes.hotornot.utils;
  */
 
 public class AppConstants {
-    final public static String URL_ENDPOINT_PRIMARY = "http://192.168.137.1:3000/";
+    private AppConstants(){}
+    public static final String URL_ENDPOINT_PRIMARY = "http://192.168.137.1:3000/";
 }

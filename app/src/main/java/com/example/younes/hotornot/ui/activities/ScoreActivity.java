@@ -1,4 +1,4 @@
-package com.example.younes.hotornot.ui.Activities;
+package com.example.younes.hotornot.ui.activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
